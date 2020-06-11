@@ -1,0 +1,33 @@
+{
+  "name": "iobusApp",
+  "resolutions": {
+    "@react-native-community/cli-debugger-ui": "4.7.0"
+  },
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "react": "latest",
+    "react-native": "latest",
+    "react-native-webview": "latest"
+  },
+  "devDependencies": {
+    "@babel/core": "latest",
+    "@babel/runtime": "latest",
+    "@react-native-community/eslint-config": "latest",
+    "babel-jest": "latest",
+    "eslint": "latest",
+    "jest": "latest",
+    "metro-react-native-babel-preset": "latest",
+    "react-test-renderer": "latest"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
